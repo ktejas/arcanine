@@ -44,6 +44,12 @@ TagManager:
   - name: Environment
     uniqueID: 3685708755
     locked: 0
+  - name: Road
+    uniqueID: 101864181
+    locked: 0
+  - name: RoadProps
+    uniqueID: 4102683963
+    locked: 0
   - name: Character
     uniqueID: 1521942979
     locked: 0
