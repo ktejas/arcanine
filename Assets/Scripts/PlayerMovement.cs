@@ -9,11 +9,11 @@ public class PlayerMovement : MonoBehaviour
 
 	void Start ()
     {
-        //goBikeShadow.transform.worldRotation = Quaternion.identity;
+        
 	}
 	
 	void Update ()
     {
-		
-	}
+        goBikeShadow.transform.rotation = Quaternion.identity;
+    }
 }
