@@ -1126,6 +1126,11 @@ Prefab:
       propertyPath: m_Constraints
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 235939103238825638, guid: 3e29aa8c5129ffc42bcd2a8f53a6ece5,
+        type: 2}
+      propertyPath: m_UseMotor
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3e29aa8c5129ffc42bcd2a8f53a6ece5, type: 2}
   m_IsPrefabAsset: 0
@@ -2469,7 +2474,7 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 874703329}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c525739d7b143084f9878709d83596b3, type: 3}
   m_Name: 
@@ -4234,7 +4239,7 @@ GameObject:
   - component: {fileID: 1728901247}
   - component: {fileID: 1728901248}
   m_Layer: 0
-  m_Name: crsbk_char_01_bike
+  m_Name: Player
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4309,7 +4314,7 @@ CircleCollider2D:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1728901243}
-  m_Enabled: 0
+  m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
@@ -5114,6 +5119,11 @@ Prefab:
         type: 2}
       propertyPath: m_Suspension.m_Frequency
       value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 235939103238825638, guid: 3e29aa8c5129ffc42bcd2a8f53a6ece5,
+        type: 2}
+      propertyPath: m_UseMotor
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3e29aa8c5129ffc42bcd2a8f53a6ece5, type: 2}

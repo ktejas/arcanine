@@ -7,13 +7,20 @@ public class PlayerMovement : MonoBehaviour
 
     public GameObject goBikeShadow;
 
+    private Rigidbody2D playerRigidbody;
+
 	void Start ()
     {
-        
-	}
+        playerRigidbody = GetComponent<Rigidbody2D>();
+
+    }
 	
-	void Update ()
+	void FixedUpdate ()
     {
+        //Move Shadow
         goBikeShadow.transform.rotation = Quaternion.identity;
+
+        //Input
+
     }
 }
