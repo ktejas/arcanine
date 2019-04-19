@@ -18,7 +18,7 @@ public class PlayerMovement : MonoBehaviour
 	void FixedUpdate ()
     {
         //Move Shadow
-        goBikeShadow.transform.rotation = Quaternion.identity;
+        //goBikeShadow.transform.rotation = Quaternion.identity;
 
         //Input
 
